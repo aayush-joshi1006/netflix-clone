@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Martel Sans", sans-serif;
+    background-color: black;
+}
+
+/* Header */
+
+/* background */
+
+header {
+    position: relative;
+    background-image: url(images/backgroundNetflix.jpg);
+    width: 100%;
+    height: 95vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Header nav */
+
+header nav {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 76vw;
+    z-index: 10;
+    padding-top: 20px;
+}
+
+/* background opacity */
+
+header .box {
+    height: 95vh;
+    width: 100vw;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+/* Nav Buttons */
+
+.basicButton {
+    background-color: hsla(0, 19%, 11%, 0.677);
+    color: aliceblue;
+    border: 0.5px solid rgba(255, 255, 255, 0.13);
+    padding: 5px 18px 5px 13px;
+    border-radius: 5px;
+    margin: 0 12px;
+    font-size: 1.05rem;
+}
+
+.redButton {
+    background-color: hsl(0, 100%, 40%);
+    color: white;
+    padding: 8px 17px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 0 12px;
+    font-size: 0.9rem;
+}
+
+.buttonHover :hover {
+    background-color: hsl(0, 100%, 30%);
+}
+
+/* Written Statements */
+
+.wordStatements {
+    height: 80vh;
+    width: 90vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    padding: 0 20px;
+    margin: auto;
+}
+
+header .wordStatements h1 {
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+header .wordStatements h3 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+header .wordStatements p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Input and button */
+
+.emailInput {
+    padding: 1rem 1rem;
+    background-color: hsla(0, 0%, 0%, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.414);
+    border-radius: 5px;
+    width: 20rem;
+    font-size: 1rem;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.emailSubmit button {
+    font-size: 1.5rem;
+    padding: 0.8rem 1rem;
+    align-self: center;
+}
+
+/* Seperation */
+
+.seperation {
+    background-color: hsla(0, 0%, 15%);
+    width: 100%;
+    height: 8px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* main */
+
+/* section 1 */
+
+.yourTv {
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 75px;
+    gap: 30px;
+}
+
+.heading1 {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.para1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.image1{
+ 
+    z-index: 10;
+    width: 37vw;
+    position: relative;
+    top: 1vh;
+}
+
+.video1 {
+    position: absolute;
+    width: 27vw;
+}
+
+/* section 2 */
+
+.downlaodProcess {
+    
+    background-color: red;
+    padding: 9px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    gap: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.downlaodProcess img:first-child {
+    height: 5rem;
+}
+
+.downlaodProcess img {
+    height: 3.5rem;
+}
+
+/* section 3 */
+
+.SacredGame {
+    position: absolute;
+    top: 8vh;
+    width: 24vw;
+}
+
+.rajmachawalTv {
+    z-index: 10;
+    width: 37vw;
+    position: relative;
+    top: 1vh;
+}
+
+/* FAQ */
+
+.faqBox {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    width: 76vw;
+    margin: 7px auto ;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.faqHover :hover {
+    background-color: hsl(0, 0%, 25%);
+}
+
+.faqBox p {
+    font-size: 1.4rem;
+}
+
+.faqBox img {
+    height: 2rem;
+}
+
+.faq h2 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 52px;
+}
+
+.faq > p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* footer */
+
+.footer {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 70px auto;
+    width: 80vw;
+    gap: 20px;
+}
+
+
+
+.linksGrid a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.linksGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    row-gap: 10px;
+}
